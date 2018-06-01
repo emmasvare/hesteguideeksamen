@@ -1,0 +1,1694 @@
+@charset "UTF-8";
+/* CSS Document */
+/*Forside desktop*/
+#body{
+	background-color: black;
+}
+#banner{
+    display: none;
+	width: 40%;
+	margin-top: -65px;
+	margin-left: 500px;
+}
+#bannerscreen{
+    display: inline-block;
+	width: 110%;
+	margin-top: -26px;
+	margin-left: -10px;
+	}
+
+ul {
+	list-style: none;
+	margin-right: 800px
+	
+}
+
+li {
+	margin-top: -15px;
+	margin-left: 490px;
+	margin-right: -380px;
+	text-align: center;
+	padding: 10px;
+	
+	
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: -150px
+	
+}
+	li {
+            float: left;
+            padding: 10px;
+		
+        }
+
+            li a, .dropbtn {
+                display: inline-block;
+                color: black;
+                text-align: center;
+                padding: 5px 5px;
+                text-decoration: none;
+				
+            }
+
+                li a:hover, .dropdown:hover .dropbtn {
+                    color: #626262;
+                }
+
+            li.dropdown {
+                display: inline-block;
+				
+            }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #FFFFFF;
+            min-width: 250px;
+            z-index: 1;
+			
+			
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+                .dropdown-content a:hover {
+                    color: #2E2E2E;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+			
+        }
+	
+	
+a:hover {
+	color: #B1B1B1;
+}
+a.selected{
+	color: #B1B1B1;
+}
+a.selected2{
+	color: #B1B1B1;
+}
+a.selected3{
+	color: #B1B1B1;
+}
+a.selected4{
+	color: #B1B1B1;
+}
+a.active{
+	text-decoration: #B1B1B1;
+}
+.cover{
+		margin-left: -200px;
+	
+		
+	}
+#navigation {
+	padding: 40px;
+	font-family: roboto;
+	margin-top: -33px;
+	position: fixed;
+	z-index: 10;
+	font-size: 20px;
+	background-color: white;
+	height: 40px;
+	margin-left: 10px;
+	opacity: 0.7;
+	text-align: center;
+	
+	
+}
+
+#logo{
+	width: 30%;
+	height: 15%;
+	margin-top: 250px;
+	margin-left:520px;
+	position: absolute;
+	z-index: 30;
+}
+#hgride{
+	width: 5%;
+	height: 10%;
+	margin-left: 100px;
+	position: fixed;
+	z-index: 35;
+	margin-top: 15px
+}
+
+
+.om{
+	
+	font-size: 15px;
+	margin-top: 10px;
+	margin-right: 450px;
+	margin-left: 500px;
+	color: white;
+	font-family: roboto;
+	text-align: center;
+	line-height: 1.5;
+	
+}
+
+            
+.footer{
+	z-index: -10;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+	opacity: 0.7;
+	font-family: roboto;
+	margin-top: -55px;
+	
+	
+	
+}
+.ikoner{
+	width: 4%;
+	margin-top: 10px;
+	margin-left: -490px;
+}
+.ikoner2{
+	width:8.5%;
+	margin-left: 53%;
+	float: left;
+		
+}
+.ikoner3{
+	width: 4.5%;
+	margin-left: -15%;
+	margin-top: 6px;
+	float: left;
+		
+}
+.footerforside{
+	z-index: -10;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+	opacity: 0.7;
+	font-family: roboto;
+	margin-top: 220px;
+}
+
+.ikonerforside{
+	width: 4.5%;
+	margin-top: 2px;
+	margin-left: -1000px;
+}
+.ikoner2forside{
+	width:9.5%;
+	margin-left: 45%;
+	float: left;
+	margin-top: -9px;
+		
+}
+.ikoner3forside{
+	width: 5%;
+	margin-left: -15%;
+	margin-top: -2px;
+	float: left;
+		
+}
+
+.ikonerstrigle{
+	width: 4.5%;
+	margin-top: 2px;
+	margin-left: -1000px;
+}
+.ikoner2strigle{
+	width:9.5%;
+	margin-left: 45%;
+	float: left;
+	margin-top: -9px;
+		
+}
+.ikoner3strigle{
+	width: 5%;
+	margin-left: -15%;
+	margin-top: -2px;
+	float: left;
+		
+}
+#banner2{
+	width: 105%;
+	position: relative;
+	margin-top: -60px;
+	margin-left: -10px;
+}
+.overskrift{
+	font-family: roboto;
+	margin-left: 25%;
+	margin-right: 25%;
+	color: white;
+	font-size: 30px;
+	margin-top: -65%;
+	position: relative;
+	text-align: center;
+		
+}
+.om2{
+	font-family: roboto;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	position: relative;
+	margin-right: 40%;
+	margin-left: 35%;
+	line-height: 1.5;
+	margin-top: 10%;
+}
+
+/* lær at strigle starter her desktop*/
+#banner4{
+	display: none;
+	width: 130%;
+	position: relative;
+	margin-top: -60px;
+	margin-left: -10px;
+	
+
+}
+	#bannerscreenstrigle{
+	display: inline-block;
+	width: 115%;
+	margin-top: -26px;
+	margin-left: -10px;
+	}
+.strigleh2{
+	font-family: roboto;
+	color: white;
+	font-size: 30px;
+	position: relative;
+	margin-right: 30%;
+	margin-left:630px;
+	margin-top: 10%;
+}
+#striglevideo{
+	margin-top: 10px;
+	margin-left: 370px;
+	z-index: 30;
+	width: 50%;
+	
+}
+.trin{
+	font-family: roboto;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	margin-right: 20%;
+	margin-left: 22%;
+	margin-top: 5%;
+	
+}
+.et{
+	font-family: roboto;
+	color: white;
+	font-size: 20px;
+	position: relative;
+	margin-right: 20%;
+	margin-left: 25%;
+	margin-top: 6%;
+}
+.trintekst{
+	font-family: roboto;
+	color: white;
+	font-size: 15px;
+	position: relative;
+	margin-right: 20%;
+	margin-left: 25%;
+	margin-top: -10px;
+}
+
+/*Lær at sadle op starter her desktop*/
+#banner3{
+	display: none;
+	
+}
+	#bannerdesktopsadl{
+    display: inline-block;
+	width: 112%;
+	margin-top: -26px;
+	margin-left: -10px;
+	}
+.overskrift3{
+	font-family: roboto;
+	margin-left: 27%;
+	margin-right: 25%;
+	color: white;
+	font-size: 50px;
+	margin-top: -180px;
+	position: relative;
+	text-align: center;	
+}
+.sadletuto{
+    font-family: roboto;
+	margin-left: 27%;
+	margin-right: 25%;
+	color: white;
+	font-size: 30px;
+	margin-top: 110px;
+	position: relative;
+	text-align: center;
+	z-index: 30;
+}
+#sadlevideo{
+    margin-top: -30px;
+	margin-left: 375px;
+	width: 50%;
+	
+}
+.ordguide{
+	font-family: roboto;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	margin-right: 20%;
+	margin-left: 22%;
+	margin-top: 5%;
+}
+
+/*Her starter om hesten desktop*/
+#omhesten{
+	width: 60%;
+	position: relative;
+	margin-top: -60px;
+	margin-left: 400px;
+	display: none;
+}
+#bannerscreenheide{
+	width: 115%;
+	margin-top: -26px;
+	margin-left: -5px;
+	display:inline;
+	}
+.overskriftomhesten{
+	font-family: roboto;
+	margin-left: 26%;
+	margin-right: 25%;
+	color: white;
+	font-size: 50px;
+	margin-top: -200px;
+	position: relative;
+	text-align: center;	
+}
+	.om2{
+		margin-top: 50px;
+		margin-left: 540px;
+		margin-right: 510px;
+	}
+#info{
+	font-family: roboto;
+	color: white;
+	font-size: 30px;
+	position: relative;
+	margin-right: 20px;
+	margin-left:660px;
+	margin-top: 100px;
+}
+/*Kilde: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img*/
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+	margin-left: 550px;
+	margin-right: 100px;
+	width: 25%;
+	height: 20%
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin-left: 585px;
+    display: block;
+    width: 65%;
+    max-width:350px;
+	margin-top: 20px
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin-left: 380px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+	font-family: roboto;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 120px;
+    right: 200px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}	
+	
+/*Lær at ride starter her desktop*/
+
+	#bannerrid{
+	width: 105%;
+	position: relative;
+	display: none;
+	margin-top: -60px;
+	margin-left: -10px;
+	}
+.overskriftride{
+	font-family: roboto;
+	margin-left: 48%;
+	margin-right: 25%;
+	color: white;
+	font-size: 50px;
+	margin-top: -20%;
+	position: relative;
+		
+}
+.omride{
+	margin-top: 50px;
+		margin-left: 700px;
+		margin-right: 100px;
+	font-family: roboto;
+	color: white;
+}
+	
+#bannerscreenrid{
+	width: 130%;
+	margin-top: -25px;
+	margin-left: -10px;
+	display: inline-block;
+	}
+#rid{
+	margin-top: 3%;
+	margin-left: 500px;
+	width: 50%;
+}
+
+#opstilling{
+	font-family: roboto;
+	margin-left: 40%;
+	margin-right: 25%;
+	color: white;
+	font-size: 15px;
+	margin-top: 1%;
+	position: relative;
+	text-align: left;	
+	line-height: 1.5;
+}
+#ridetuto{
+	font-family: roboto;
+	margin-left: 37%;
+	margin-right: 25%;
+	color: white;
+	font-size: 30px;
+	margin-top: 10%;
+	position: relative;
+	text-align: center;
+}
+.ikonerride{
+	width: 4%;
+	margin-left: 200px;
+	
+}
+.ikoner2ride{
+	width:9%;
+	margin-left: 1%;
+	margin-top: 10px;
+	margin-bottom: -8px
+	
+}
+.ikoner3ride{
+	width: 5%;
+	margin-left: 1%;
+	margin-top: 5px;
+		
+}
+
+
+/*Her starter mediaquery til tablets*/
+@media all and (max-width : 1024px){
+#banner{
+    display: inline-block;
+	width: 105%;
+	margin-top: -100px;
+	margin-left: -8px;
+}
+#bannerscreen{
+    display: none;
+	width: 110%;
+	margin-top: -26px;
+	margin-left: -10px;
+	}
+ul {
+	list-style: none;
+	margin-right: 100px;
+	
+}
+
+li {
+	margin-top: -15px;
+	margin-left: 490px;
+	text-align: center;
+	padding: 15px;
+	display: inline-block;
+	
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	margin-left: -250px;
+	margin-right: 160px
+	
+}
+	li {
+            float: left;
+            padding: 10px;
+		
+        }
+
+            li a, .dropbtn {
+                
+				margin-right: 100px;
+				margin-left: -270px;
+				
+            }
+
+                li a:hover, .dropdown:hover .dropbtn {
+                    color: #626262;
+                }
+
+            li.dropdown {
+                display: inline-block;
+				
+				
+            }
+
+        .dropdown-content {
+            display: none;
+            position: fixed;
+            background-color: #FFFFFF;
+            min-width: 250px;
+            z-index: 1;
+			padding: 0;
+			margin-left: -230px;
+			
+			
+			
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 10px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+				margin-left: -10px;
+            }
+
+                .dropdown-content a:hover {
+                    color: #2E2E2E;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+			
+        }
+	
+	
+a:hover {
+	color: #B1B1B1;
+}
+a.selected{
+	color: #B1B1B1;
+}
+a.selected2{
+	color: #B1B1B1;
+}
+a.selected3{
+	color: #B1B1B1;
+}
+a.selected4{
+	color: #B1B1B1;
+}
+a.active{
+	text-decoration: #B1B1B1;
+}
+.cover{
+		margin-left: -250px;
+	
+	
+		
+	}
+#navigation {
+	padding: 40px;
+	margin-top: -33px;
+	font-size: 20px;
+	margin-left: 5px;
+	}
+	
+#logo{
+	width: 50%;
+	height: 15%;
+	margin-top: 350px;
+	margin-left:200px;
+	position: absolute;
+	z-index: 30;
+}
+#hgride{
+	width: 8%;
+	height: 10%;
+	margin-left: 270px;
+	position: fixed;
+	z-index: 35;
+	margin-top: 15px;
+}
+.om{
+	font-size: 15px;
+	margin-top: -275px;
+	margin-right: 160px;
+	margin-left: 215px;
+	color: white;
+	font-family: roboto;
+	text-align: center;
+	line-height: 1.5;
+	
+}
+
+            
+.footer{
+	z-index: -10;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+	opacity: 0.7;
+	font-family: roboto;
+	margin-top: 190px;
+	height: 80px
+	
+}
+.ikoner{
+	width: 6.5%;
+	margin-left: 50px;
+	
+}
+.ikoner2{
+	width:14%;
+	margin-left: 560px;
+	margin-top: -2px;
+	margin-bottom: -8px
+	
+}
+.ikoner3{
+	width: 7.5%;
+	margin-left: -225px;
+	margin-top: 5px;
+		
+}
+	
+.footerforside{
+	z-index: -10;
+    left: 0px;
+    bottom: 0px;
+    width: 110%;
+    background-color: white;
+    color: black;
+    text-align: center;
+	opacity: 0.7;
+	font-family: roboto;
+	height: 70px;
+	margin-top: 220px;
+}
+
+.ikonerforside{
+	width: 7%;
+	margin-top: 5px;
+	margin-left: -42px;
+}
+.ikoner2forside{
+	width:15%;
+	margin-left: 40%;
+	float: left;
+	margin-top: -3px;
+		
+}
+.ikoner3forside{
+	width: 8%;
+	margin-left: -24%;
+	margin-top: 1px;
+	float: left;
+		
+}
+
+.ikonerstrigle{
+	width: 9%;
+	margin-top: 7px;
+	margin-left: 50px;
+}
+.ikoner2strigle{
+	width:18.5%;
+	margin-left: 43%;
+	float: left;
+	margin-top: -5px;
+		
+}
+.ikoner3strigle{
+		width: 10%;
+	margin-left: -30%;
+	margin-top: 2px;
+	float: left;
+	}
+		
+/*Lær at strigle tablet*/
+#banner4{
+	display: inline-block;
+	width: 115%;
+	position: relative;
+	margin-top: -60px;
+	margin-right: -10px;
+	margin-left: -10px
+	
+
+}
+	#bannerscreenstrigle{
+	display: none;
+	width: 115%;
+	margin-top: -26px;
+	margin-left: -10px;
+	}
+.strigleh2{
+	font-family: roboto;
+	color: white;
+	font-size: 30px;
+	position: relative;
+	margin-right: 20%;
+	margin-left:310px;
+	margin-top: 15%;
+}
+#striglevideo{
+	margin-top: -10px;
+	margin-left: 220px;
+	z-index: 30;
+	width: 50%;
+	
+	
+}
+.trin{
+	font-family: roboto;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	margin-right: 20%;
+	margin-left: 30%;
+	margin-top: 5%;
+	
+}
+.et{
+	font-family: roboto;
+	color: white;
+	font-size: 20px;
+	position: relative;
+	margin-right: 20%;
+	margin-left: 32%;
+	margin-top: 6%;
+}
+.trintekst{
+	font-family: roboto;
+	color: white;
+	font-size: 15px;
+	position: relative;
+	margin-right: 16%;
+	margin-left: 32%;
+	margin-top: -10px;
+}
+
+/*Lær at sadle op starter her tablet*/
+#banner3{
+	display: inline-block;
+	width: 105%;
+	margin-top: -150px;
+	margin-left: -10px;
+}
+	#bannerdesktopsadl{
+    display: none;
+	width: 112%;
+	margin-top: -26px;
+	margin-left: -10px;
+	}
+.overskrift3{
+	font-family: roboto;
+	margin-left: 27%;
+	margin-right: 20%;
+	color: white;
+	font-size: 50px;
+	margin-top: -470px;
+	position: relative;
+	text-align: center;	
+}
+.sadletuto{
+    font-family: roboto;
+	margin-left: 30%;
+	margin-right: 25%;
+	color: white;
+	font-size: 30px;
+	margin-top: 110px;
+	position: relative;
+	text-align: center;
+	z-index: 30;
+}
+#sadlevideo{
+    margin-top: -30px;
+	margin-left: 200px;
+	width: 50%;
+	
+}
+.ordguide{
+	font-family: roboto;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	margin-right: 20%;
+	margin-left: 22%;
+	margin-top: 5%;
+}
+
+/*Lær at ride starter her tablet*/
+#hglogo{
+	width: 8%;
+	height: 9%;
+	margin-left: 10px;
+	position:absolute;
+	z-index: 60;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+
+	#bannerrid{
+	width: 115%;
+	position: relative;
+	display: inline-block;
+	margin-top: -27px;
+	margin-right: -200px;
+	}
+.overskriftride{
+	font-family: roboto;
+	margin-left: 52%;
+	margin-right: 10%;
+	color: white;
+	font-size: 50px;
+	margin-top: -25%;
+	position: relative;
+		
+}
+.omride{
+	font-family: roboto;
+	margin-left: 50%;
+	margin-right: 20%;
+	color: white;
+	font-size: 15px;
+	margin-top: -2%;
+	position: relative;
+	text-align: center;	
+	line-height: 1.5;
+	}
+	
+#bannerscreenrid{
+	width: 130%;
+	margin-top: -26px;
+	margin-left: -10px;
+	display: none;
+	}
+#rid{
+	margin-top: 3%;
+	margin-left: 380px;
+	width: 50%;
+}
+
+#opstilling{
+	font-family: roboto;
+	margin-left: 39%;
+	margin-right:10%;
+	color: white;
+	font-size: 15px;
+	margin-top: 5%;
+	position: relative;
+	text-align:left;	
+	line-height: 1.5;
+}
+#ridetuto{
+	font-family: roboto;
+	margin-left: 47%;
+	margin-right: 20%;
+	color: white;
+	font-size: 30px;
+	margin-top: 10%;
+	position: relative;
+	text-align: center;
+}
+
+
+
+/*Her starter om hesten tablet*/
+#omhesten{
+	width: 115%;
+	position: relative;
+	margin-top: -60px;
+	margin-left: -10px;
+	display: inline-block;
+}
+#bannerscreenheide{
+	width: 115%;
+	margin-top: -26px;
+	margin-left: -5px;
+	display: none;
+	}
+.overskriftomhesten{
+	font-family: roboto;
+	margin-left: 26%;
+	margin-right: 25%;
+	color: white;
+	font-size: 50px;
+	margin-top: -350px;
+	position: relative;
+	text-align: center;	
+}
+	.om2{
+		margin-top: 50px;
+		margin-left: 130px;
+		margin-right: 110px;
+	}
+#info{
+	font-family: roboto;
+	color: white;
+	font-size: 30px;
+	position: relative;
+	margin-right: 20px;
+	margin-left:310px;
+	margin-top: 140px;
+	z-index: 40;
+}
+/*Kilde: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img*/
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+	margin-left: 200px;
+	margin-right: 100px;
+	width: 50%;
+	height: 30%
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin-left: 250px;
+    display: block;
+    width: 65%;
+    max-width:350px;
+	margin-top: 20px
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin-left: 380px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+	font-family: roboto;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}	
+
+}
+/*Her starter mediaquery til iphone*/
+@media all and (max-width : 600px){
+
+#banner{
+    display: inline-block;
+	width: 105%;
+	margin-top: -27px;
+	margin-left: -8px;
+}
+#bannerscreen{
+    display: none;
+	width: 110%;
+	margin-top: -26px;
+	margin-left: -10px;
+	}
+ul {
+	list-style: none;
+	margin-right: 180px;
+	
+}
+
+li {
+	margin-top: -15px;
+	margin-left: 430px;
+	text-align: center;
+	padding: 15px;
+	display: inline-block;
+	
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	margin-left: -270px;
+	
+	
+}
+	
+	li {
+            float: left;
+            padding: 8px;
+		
+        }
+
+            li a, .dropbtn {
+                
+				margin-right: 100px;
+				margin-left: -270px;
+				
+            }
+
+                li a:hover, .dropdown:hover .dropbtn {
+                    color: #626262;
+					
+                }
+
+            li.dropdown {
+                display: inline-block;
+				
+				
+            }
+
+        .dropdown-content {
+           display: none;
+            position: absolute;
+            background-color: #FFFFFF;
+            min-width: 250px;
+            z-index: 1;
+			padding: 0;
+			margin-left: -225px;
+			
+			
+			
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 10px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+				margin-left: -12px;
+            }
+
+                .dropdown-content a:hover {
+                    color: #2E2E2E;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+			
+        }
+	
+	
+a:hover {
+	color: #B1B1B1;
+}
+a.selected{
+	color: #B1B1B1;
+}
+a.selected2{
+	color: #B1B1B1;
+}
+a.selected3{
+	color: #B1B1B1;
+}
+a.selected4{
+	color: #B1B1B1;
+}
+a.active{
+	text-decoration: #B1B1B1;
+}
+.cover{
+		margin-left: -210px;
+	
+	
+		
+	}
+#navigation {
+	padding: 40px;
+	margin-top: -40px;
+	font-size: 18px;
+	margin-left: -15px;
+	height: 20px
+	}
+	
+#logo{
+	width: 65%;
+	height: 10%;
+	margin-top: 350px;
+	margin-left:65px;
+	position: absolute;
+	z-index: 30;
+}
+#hgride{
+	width: 8%;
+	height: 6%;
+	margin-left: 280px;
+	position: fixed;
+	z-index: 60;
+	margin-top: 20px;
+}
+.om{
+	font-size: 15px;
+	margin-top: -40px;
+	margin-right: 50px;
+	margin-left: 50px;
+	color: white;
+	font-family: roboto;
+	text-align: center;
+	line-height: 1.5;
+	
+}
+
+            
+.footer{
+	z-index: 30;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+	opacity: 0.7;
+	font-family: roboto;
+	margin-top: 50px;
+	
+}
+.ikoner{
+	width: 10%;
+	margin-top: 7px;
+	margin-left: 130px;
+}
+.ikoner2{
+	width: 21%;
+	margin-left: 55%;
+	margin-top: -2px;
+	float: left;
+		
+}
+.ikoner3{
+	width: 11%;
+	margin-left: 43%;
+	margin-top: -75px;
+	float: left;
+		
+}
+	.footerforside{
+	z-index: -10;
+    left: 0px;
+    bottom: 0px;
+    width: 110%;
+    background-color: white;
+    color: black;
+    text-align: center;
+	opacity: 0.7;
+	font-family: roboto;
+	height: 70px;
+	margin-top: 170px;
+}
+
+.ikonerforside{
+	width: 12%;
+	margin-top: 5px;
+	margin-left: 70px;
+}
+.ikoner2forside{
+	width:25.5%;
+	margin-left: 33%;
+	float: left;
+	margin-top: -3px;
+		
+}
+.ikoner3forside{
+	width: 13.5%;
+	margin-left: -37%;
+	margin-top: 1px;
+	float: left;
+		
+}
+
+.ikonerstrigle{
+	width: 14%;
+	margin-top: 8px;
+	margin-left: 120px;
+}
+.ikoner2strigle{
+	width: 29%;
+	margin-left: 38%;
+	float: left;
+	margin-top: -2px;
+		
+}
+.ikoner3strigle{
+		width: 15.5%;
+	margin-left: -43%;
+	margin-top: 2px;
+	float: left;
+	}
+		
+
+	
+
+/*Lær at strigle iphone*/
+#banner4{
+	display: inline-block;
+	width: 130%;
+	position: relative;
+	margin-top: -8px;
+	margin-right: -10px;
+	margin-left: -10px
+	
+
+}
+	#bannerscreenstrigle{
+	display: none;
+	width: 115%;
+	margin-top: -26px;
+	margin-left: -10px;
+	}
+.strigleh2{
+	font-family: roboto;
+	color: white;
+	font-size: 25px;
+	position: relative;
+	margin-right: 20%;
+	margin-left:125px;
+	margin-top: 15%;
+}
+#striglevideo{
+	margin-top: -10px;
+	margin-left: 65px;
+	z-index: 20;
+	width: 70%;
+	
+	
+}
+.trin{
+	font-family: roboto;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+	margin-right: 20%;
+	margin-left: 25%;
+	margin-top: 5%;
+	
+}
+.et{
+	font-family: roboto;
+	color: white;
+	font-size: 15px;
+	position: relative;
+	margin-right: 20%;
+	margin-left: 15%;
+	margin-top: 6%;
+}
+.trintekst{
+	font-family: roboto;
+	color: white;
+	font-size: 15px;
+	position: relative;
+	margin-right: 19%;
+	margin-left: 15%;
+	margin-top: -10px;
+}
+
+/*Lær at sadle op starter her iphone*/
+#banner3{
+	display: inline-block;
+	width: 110%;
+	margin-top: -90px;
+	margin-left: -10px;
+}
+	#bannerdesktopsadl{
+    display: none;
+	width: 112%;
+	margin-top: -26px;
+	margin-left: -10px;
+	}
+.overskrift3{
+	font-family: roboto;
+	margin-left: 19%;
+	margin-right: 20%;
+	color: white;
+	font-size: 30px;
+	margin-top: -300px;
+	position: relative;
+	text-align: center;	
+}
+.sadletuto{
+    font-family: roboto;
+	margin-left: 27%;
+	margin-right: 25%;
+	color: white;
+	font-size: 25px;
+	margin-top: 110px;
+	position: relative;
+	text-align: center;
+	z-index: 30;
+}
+#sadlevideo{
+    margin-top: -60px;
+	margin-left: 75px;
+	width: 70%;
+	
+}
+.ordguide{
+	font-family: roboto;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+	margin-right: 20%;
+	margin-left: 22%;
+	margin-top: 5%;
+}
+/*Her starter om hesten iphone*/
+#hgom{
+	width: 5%;
+	height: 5%;
+	margin-top: -75px;
+	z-index: 100;
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+#omhesten{
+	width: 130%;
+	position: relative;
+	margin-top: -25px;
+	margin-left: -50px;
+	display: inline-block;
+}
+#bannerscreenheide{
+	width: 115%;
+	margin-top: -26px;
+	margin-left: -5px;
+	display: none;
+	}
+.overskriftomhesten{
+	font-family: roboto;
+	margin-left: 26%;
+	margin-right: 25%;
+	color: white;
+	font-size: 30px;
+	margin-top: -230px;
+	position: relative;
+	text-align: center;	
+}
+.om2{
+		margin-top: 40px;
+		margin-left: 90px;
+		margin-right: 100px;
+	}
+#info{
+	font-family: roboto;
+	color: white;
+	font-size: 30px;
+	position: relative;
+	margin-right: 20px;
+	margin-left:150px;
+	margin-top: 50px;
+	
+}
+/*Kilde: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img*/
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+	margin-left: 110px;
+	margin-right: 100px;
+	width: 50%;
+	height: 20%;
+	z-index: 20;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin-left: 70px;
+    display: block;
+    width: 65%;
+    max-width:350px;
+	margin-top: 20px;
+	z-index: 100;
+	
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin-left: 380px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+	font-family: roboto;
+	
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 105px;
+    right: 40px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+	
+/*Lær at ride starter her iphone*/
+
+#bannerrid{
+	width: 130%;
+	height: 370px;
+	position: relative;
+	display: inline-block;
+	margin-top: -25px;
+	margin-right: -450px;
+	}
+.overskriftride{
+	font-family: roboto;
+	margin-left: 55%;
+	margin-right: 10%;
+	color: white;
+	font-size: 30px;
+	margin-top: -40%;
+	position: relative;
+		
+}
+.omride{
+	font-family: roboto;
+	margin-left: 50%;
+	margin-right: 15%;
+	color: white;
+	font-size: 15px;
+	margin-top: -2%;
+	position: relative;
+	text-align: center;	
+	line-height: 1.5;
+	}
+	
+#bannerscreenrid{
+	width: 130%;
+	margin-top: -26px;
+	margin-left: -10px;
+	display: none;
+	}
+#rid{
+	margin-top: -2%;
+	margin-left: 260px;
+	width: 50%;
+}
+
+#opstilling{
+	font-family: roboto;
+	margin-left: 42%;
+	margin-right:6%;
+	color: white;
+	font-size: 15px;
+	margin-top: -2%;
+	position: relative;
+	text-align:left;	
+	line-height: 1.5;
+}
+#ridetuto{
+	font-family: roboto;
+	margin-left: 55%;
+	margin-right: 20%;
+	color: white;
+	font-size: 25px;
+	margin-top: 20%;
+	position: relative;
+	text-align: center;
+}
+
+
+
+}
